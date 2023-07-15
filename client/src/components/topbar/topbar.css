@@ -10,7 +10,6 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
-.topLeft,
 .topRight {
   flex: 3;
   display: flex;
@@ -26,7 +25,8 @@
 }
 
 .topCenter {
-  flex: 6;
+  flex: 12;
+  padding-left: 300px;
 }
 
 .topList {
@@ -44,8 +44,8 @@
   cursor: pointer;
 }
 
-.topListItem:hover{
-    color: gray;
+.topListItem:hover {
+  color: gray;
 }
 
 .topImg {
